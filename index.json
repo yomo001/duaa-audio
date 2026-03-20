@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-03-20T07:20:21+00:00",
+  "reciters": [
+    {
+      "id": "hussein-ghareeb",
+      "displayName": "Hussein Ghareeb",
+      "arabicName": "حسين غريب",
+      "manifest": "/hussein-ghareeb/manifest.json"
+    }
+  ]
+}
