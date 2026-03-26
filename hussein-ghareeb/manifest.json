@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T07:32:05+00:00",
+  "generatedAt": "2026-03-26T07:45:58+00:00",
   "reciter": {
     "id": "hussein-ghareeb",
     "displayName": "Hussein Ghareeb",
@@ -7,8 +7,8 @@
   },
   "summary": {
     "totalEntries": 229,
-    "availableEntries": 22,
-    "missingEntries": 207
+    "availableEntries": 23,
+    "missingEntries": 206
   },
   "items": [
     {
@@ -2538,13 +2538,13 @@
       "folder": "sahifa-sajjadiya/munajat",
       "content_file": "article:sahifa-de-beklagandes-munajat",
       "expected_source_pattern": "audio_library/hussein-ghareeb/source/sahifa-sajjadiya/munajat/sahifa-de-beklagandes-munajat.*",
-      "available": false,
-      "source_file": null,
-      "hosted_path": null,
-      "audio_url": null,
-      "extension": null,
-      "size_bytes": null,
-      "sha256": null
+      "available": true,
+      "source_file": "audio_library/hussein-ghareeb/source/sahifa-sajjadiya/munajat/sahifa-de-beklagandes-munajat.mp3",
+      "hosted_path": "hussein-ghareeb/sahifa-sajjadiya/munajat/sahifa-de-beklagandes-munajat.mp3",
+      "audio_url": "https://yomo001.github.io/duaa-audio/hussein-ghareeb/sahifa-sajjadiya/munajat/sahifa-de-beklagandes-munajat.mp3",
+      "extension": ".mp3",
+      "size_bytes": 2849321,
+      "sha256": "fb9a0ae8c1a16879b775eb2a60569518e3b30d6b16943d690cf3352acca1be84"
     },
     {
       "catalog_id": "sahifa-sajjadiya--munajat--sahifa-de-efterstravande-av-zuhds-munajat",
