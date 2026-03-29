@@ -1,0 +1,109 @@
+{
+  "version": "2026-03-29",
+  "comment": "Uppdatera 'version' (YYYY-MM-DD) varje gång du gör ändringar. Appen hämtar filen vid start och omplanerar notiser automatiskt om versionen ändrats.",
+  "hijriOffset": 0,
+  "eventOverrides": [],
+  "activities": [
+    {
+      "id": "test_event_march_30",
+      "name": "Testprogram – Duaa.se",
+      "date": "2026-03-30",
+      "time": "18:00",
+      "location": {
+        "label": "Testevent för verifiering",
+        "mapsUrl": ""
+      },
+      "liveLinks": []
+    },
+    {
+      "id": "iftar_program_malmo",
+      "name": "Program och Iftar – Malmö",
+      "hijri": { "month": 9, "day": 14 },
+      "time": "17:30",
+      "location": {
+        "label": "Norra Grängesbergsgatan 8, Malmö",
+        "mapsUrl": "https://maps.google.com/?q=Norra+Gr%C3%A4ngesbergsgatan+8%2C+Malm%C3%B6"
+      },
+      "liveLinks": []
+    },
+    {
+      "id": "iftar_program_gbg",
+      "name": "Program och Iftar – Göteborg",
+      "hijri": { "month": 9, "day": 14 },
+      "time": "17:30",
+      "location": {
+        "label": "Blomstergatan 2, Göteborg",
+        "mapsUrl": "https://maps.google.com/?q=Blomstergatan+2%2C+G%C3%B6teborg"
+      },
+      "liveLinks": []
+    },
+    {
+      "id": "qadr_1_malmo",
+      "name": "Laylat al-Qadr natt 19 – Program Malmö",
+      "hijri": { "month": 9, "day": 18 },
+      "time": "20:00",
+      "location": {
+        "label": "Norra Grängesbergsgatan 8, Malmö",
+        "mapsUrl": "https://maps.google.com/?q=Norra+Gr%C3%A4ngesbergsgatan+8%2C+Malm%C3%B6"
+      },
+      "liveLinks": []
+    },
+    {
+      "id": "qadr_1_gbg",
+      "name": "Laylat al-Qadr natt 19 – Program Göteborg",
+      "hijri": { "month": 9, "day": 18 },
+      "time": "20:00",
+      "location": {
+        "label": "Blomstergatan 2, Göteborg",
+        "mapsUrl": "https://maps.google.com/?q=Blomstergatan+2%2C+G%C3%B6teborg"
+      },
+      "liveLinks": []
+    },
+    {
+      "id": "qadr_2_malmo",
+      "name": "Laylat al-Qadr natt 21 – Program Malmö",
+      "hijri": { "month": 9, "day": 20 },
+      "time": "20:00",
+      "location": {
+        "label": "Norra Grängesbergsgatan 8, Malmö",
+        "mapsUrl": "https://maps.google.com/?q=Norra+Gr%C3%A4ngesbergsgatan+8%2C+Malm%C3%B6"
+      },
+      "liveLinks": []
+    },
+    {
+      "id": "qadr_2_gbg",
+      "name": "Laylat al-Qadr natt 21 – Program Göteborg",
+      "hijri": { "month": 9, "day": 20 },
+      "time": "20:00",
+      "location": {
+        "label": "Blomstergatan 2, Göteborg",
+        "mapsUrl": "https://maps.google.com/?q=Blomstergatan+2%2C+G%C3%B6teborg"
+      },
+      "liveLinks": []
+    },
+    {
+      "id": "thursday_program_malmo",
+      "name": "Torsdagsprogram – Malmö",
+      "hijri": null,
+      "recurring": { "type": "weekly", "dayOfWeek": 4, "startDate": "2026-04-02", "endDate": "2026-12-31" },
+      "time": "19:00",
+      "location": {
+        "label": "Norra Grängesbergsgatan 8, Malmö",
+        "mapsUrl": "https://maps.google.com/?q=Norra+Gr%C3%A4ngesbergsgatan+8%2C+Malm%C3%B6"
+      },
+      "liveLinks": []
+    },
+    {
+      "id": "thursday_program_gbg",
+      "name": "Torsdagsprogram – Göteborg",
+      "hijri": null,
+      "recurring": { "type": "weekly", "dayOfWeek": 4, "startDate": "2026-03-26", "endDate": "2026-12-31" },
+      "time": "19:00",
+      "location": {
+        "label": "Blomstergatan 2, Göteborg",
+        "mapsUrl": "https://maps.google.com/?q=Blomstergatan+2%2C+G%C3%B6teborg"
+      },
+      "liveLinks": []
+    }
+  ]
+}
