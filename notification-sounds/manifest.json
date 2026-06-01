@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-06-01T04:51:44+00:00",
+  "items": [
+    {
+      "slug": "adhan_melody",
+      "hosted_path": "notification-sounds/adhan_melody.mp3",
+      "audio_url": "https://yomo001.github.io/duaa-audio/notification-sounds/adhan_melody.mp3",
+      "extension": ".mp3",
+      "size_bytes": 458778,
+      "sha256": "a374941425216218d6d8e16dcb390246f3e06263a59942b61b6511b28b8cb111"
+    },
+    {
+      "slug": "azan",
+      "hosted_path": "notification-sounds/azan.mp3",
+      "audio_url": "https://yomo001.github.io/duaa-audio/notification-sounds/azan.mp3",
+      "extension": ".mp3",
+      "size_bytes": 2314357,
+      "sha256": "bd0ad5a89ce891b41c57ec609e4390a8e27be94609acf945fb7b2096d0e10fbc"
+    }
+  ]
+}
