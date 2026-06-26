@@ -1,7 +1,7 @@
 {
   "version": "2026-05-30",
   "comment": "Uppdatera 'version' (YYYY-MM-DD) varje gång du gör ändringar. Appen hämtar filen vid start och omplanerar notiser automatiskt om versionen ändrats.",
-  "latestAndroidVersionCode": 35,
+  "latestAndroidVersionCode": 37,
   "hijriOffset": 2,
   "eventOverrides": [],
   "activities": [
