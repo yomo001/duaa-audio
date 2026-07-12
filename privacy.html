@@ -24,31 +24,38 @@
   enhet. Vi säljer eller delar aldrig din data, och appen innehåller inga annonser och
   ingen spårning.</p>
 
-  <h2>2. Data som hanteras lokalt på din enhet</h2>
+  <h2>2. Data som stannar helt på din enhet</h2>
+  <p>Följande lämnar <strong>aldrig</strong> din enhet och skickas aldrig till någon server:</p>
   <ul>
-    <li><strong>Plats (GPS):</strong> Din position används på enheten för att beräkna
-      bönetider och Qibla-riktning. Koordinaterna sparas endast lokalt.</li>
-    <li><strong>Tazkiyya-data:</strong> Dagliga anteckningar och streak-statistik lagras
-      enbart lokalt (localStorage). Ingen synkronisering till någon server.</li>
+    <li><strong>Tazkiyya-/rannsakan-anteckningar:</strong> Dina dagliga reflektioner och
+      streak-statistik lagras enbart lokalt (localStorage). Ingen synkronisering, ingen
+      molnlagring – de kan bara läsas på din egen enhet.</li>
     <li><strong>Favoriter, inställningar och notiser:</strong> Hanteras helt på enheten.</li>
+    <li><strong>Din sparade plats:</strong> Koordinaterna lagras lokalt och används på
+      enheten för att beräkna bönetider och Qibla-riktning.</li>
   </ul>
 
   <h2>3. Anrop som lämnar enheten</h2>
-  <p>Appen fungerar i huvudsak offline. Följande valfria nätverksanrop kan förekomma, och
-  ingen av dem skickar personuppgifter som identifierar dig:</p>
+  <p>Appen fungerar i huvudsak offline. <strong>Den enda personrelaterade uppgift som
+  kan lämna enheten är din geografiska position – och bara om du själv aktiverar
+  platstjänster.</strong> Övriga anrop hämtar allmänt innehåll och skickar ingen
+  personlig data om dig:</p>
   <ul>
-    <li><strong>Uppslag av ortsnamn (valfritt):</strong> Om du aktiverar platstjänster
-      skickas dina GPS-koordinater till tredjepartstjänsterna
+    <li><strong>Uppslag av ortsnamn (endast om plats är på):</strong> Dina GPS-koordinater
+      skickas till tredjepartstjänsterna
       <a href="https://nominatim.org/">OpenStreetMap/Nominatim</a> och
-      <a href="https://www.bigdatacloud.com/">BigDataCloud</a> för att slå upp
+      <a href="https://www.bigdatacloud.com/">BigDataCloud</a> enbart för att slå upp
       <em>ortsnamnet</em> (t.ex. "Stockholm, Sverige"). Koordinaterna används bara för
       att besvara den förfrågan, lagras inte av oss och används aldrig för spårning eller
-      reklam. Nekar du plats kan du i stället välja stad manuellt.</li>
+      reklam. Nekar du plats kan du i stället välja stad manuellt – då sker inget sådant anrop.</li>
     <li><strong>Islamisk kalender:</strong> Högtider och minnesdagar hämtas från
-      <a href="https://hijra.se/">hijra.se</a>. Ingen personlig data skickas.</li>
+      <a href="https://hijra.se/">hijra.se</a> (nedladdning av allmän kalenderdata, ingen personlig data skickas).</li>
     <li><strong>Ljudrecitationer:</strong> Listan över tillgängliga recitationer och
-      ljudfiler hämtas från GitHub Pages. Ingen personlig data skickas.</li>
+      ljudfiler hämtas från GitHub Pages (allmänt innehåll, ingen personlig data skickas).</li>
   </ul>
+  <p><strong>Viktigt:</strong> detta gäller <em>enbart</em> platstjänster. Dina
+  Tazkiyya-/rannsakan-anteckningar och all annan personlig data i appen skickas aldrig
+  någonstans – de finns bara på din enhet.</p>
   <p class="muted">Alla nätverksanrop sker krypterat via HTTPS.</p>
 
   <h2>4. Data vi INTE samlar in</h2>
